@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/21cd46dd29.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+     
+    <title>Esc. Fútbol Belgrano VdR</title>
+</head>
+<body class="fondo">
+    <nav>
+        <ul>
+            <li class="Item-menú">Inicio</li>
+            <li class="Item-menú">Entrenamientos</li>
+            <li class="Item-menú">Nosotros</li>
+            <li class="Item-menú">Contacto</li>
+        </ul>
+    </nav>
+
+    <h1>Escuela Fútbol Belgrano Filial VdR</h1>
+
+    <header class="container">
+        <div id="carouselExampleFade" class="row carousel slide carousel-fade">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./Imágenes/Niño Feliz.jpg" class="d-block w-100" alt="Feliz">
+              </div>
+              <div class="carousel-item">
+                <img src="./Imágenes/Para Todos.jpg" class="d-block w-100" alt="Nenas">
+              </div>
+              <div class="carousel-item">
+                <img src="./Imágenes/Entrenamiento.jpg" class="d-block w-100" alt="Entrenamiento">
+              </div>
+              <div class="carousel-item">
+                <img src="./Imágenes/Solo.jpg" class="d-block w-100" alt="Solo">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </header>
+
+<main class="container d-flex flex-column align-center">
+
+    <h2 class="row text-center pb-2 w-100">Nuestras Categorías</h2>
+
+    <section class="row d-flex">
+                <div class="card col-4=">
+            <img src="./Imágenes/Pequeño.jpg" class="card-img-top" alt="CatPeque">
+                <div class="card-body">
+                  <h5 class="card-title">Cat.2017/2018</h5>
+                  <p class="card-text">Especialistas en Desarrollo Infantil:
+                    Potenciamos el potencial de los más pequeños.
+                    Descubre nuestro enfoque lúdico y educativo para el entrenamiento de niños de 5 a 7 años.
+                    Ayudamos a tus hijos a crecer, aprender y desarrollarse de manera divertida y efectiva.
+                    ¡Prepáralos para un futuro brillante desde una temprana edad!
+                    </p>
+                  <a href="#" class="btn btn-primary">Saber más</a>
+                </div>
+              </div>
+                <div class="card col-4">
+                <img src="./Imágenes/Mediano.jpg" class="card-img-top" alt="CatMedia">
+                <div class="card-body">
+                  <h5 class="card-title">Cat. 2014/2015/2016</h5>
+                  <p class="card-text">Forjando Campeones Jóvenes:
+                    Transformamos su potencial en habilidades.
+                    Descubre nuestro enfoque especializado en el entrenamiento de niños de 7 a 9 años.
+                    Nuestra misión es cultivar la confianza, la disciplina y el éxito en los jóvenes atletas a través de programas de entrenamiento personalizados.
+                    ¡Prepáralos para un futuro de logros!"</p>
+                  <a href="#" class="btn btn-primary">Saber más</a>
+                </div>
+              </div>
+                <div class="card col-4">
+                <img src="./Imágenes/Grande.jpg" class="card-img-top" alt="CatMay">
+                <div class="card-body">
+                  <h5 class="card-title">Cat. 2011/2012/2013</h5>
+                  <p class="card-text">Desarrollo Joven en Acción:
+                    Forjando habilidades para el futuro.                    
+                    Explora nuestro enfoque especializado en el entrenamiento de preadolescentes de 10 a 12 años.
+                    Nuestro programa de entrenamiento está diseñado para cultivar la fuerza, la confianza y la resistencia en una atmósfera divertida y motivadora.
+                    Preparamos a los jóvenes para un futuro lleno de logros.
+                  </p>
+                  <a href="#" class="btn btn-primary">Saber más</a>
+                </div>
+              </div>
+        
+
+        </section>
+    </main>
+
+<div class="formulario">
+
+    <form action="https://formspree.io/f/xvojlkze" method="POST">
+
+        <label for="NombreUsuario">Quiero más información:</label>
+
+        <label for="NombreUsuario">Nombre
+            <input type="text" name="Nombre" id="NombreUsuario" required>
+        </label>
+
+        <label for="ApellidoUsuario">Apellido
+            <input type="text" name="Apellido" id="ApellidoUsuario" required>
+        </label>
+
+        <label for="email">Email
+            <input type="email" name="email" id="email" placeholder="ejemplo@gmail.com">
+
+        </label>
+
+        <label for="Categoría">Elija categoría a consultar:
+
+        <label for="Cat1">Cat. 2011/2012/2013
+            <input type="checkbox" name="Categoría" value="Categoría" id="Cat1">
+        </label>
+        
+        <label for="Cat2">Cat. 2017/2018
+            <input type="checkbox" name="Categoría" value="Categoría" id="Cat2">
+        </label>
+        
+        <label for="Cat3">Cat. 2014/2015/2016
+            <input type="checkbox" name="Categoría" value="Categoría" id="Cat3">
+        </label>
+    </label>
+        
+        <label for="TipoSocio">Es usted:
+
+        <label for="Particular1">Particular hijo único
+            <input type="radio" name="Particularhijounico" value="Particularhijounico" id="Particular1">
+        </label>
+        <label for="Particular2omás">Particular con 2 o más
+            <input type="radio" name="Particularhijos" value="Particularhijos" id="Particular2omás">
+        </label>
+        <label for="SocioM">Socio maderero
+            <input type="radio" name="Sociomad" value="Sociomad" id="SocioM">
+        </label>         
+            
+
+        </label>
+
+        <label for="Interés">Cómo se enteró de nosotros?
+            <select name="Interés" id="Interés">
+          <option value="Amigo">Por un amigo</option>
+          <option value="Redes">Facebook y/o Instagram</option>
+          <option value="Propaganda">Por una propaganda radio/tele</option>        
+            </select>
+        </label>
+     <textarea name="Comentario" id="Comentario" cols="30" rows="10">Escriba aquí su comentario, por favor...
+        </textarea>
+     <input type="submit" name="enviar" id="enviar">   
+
+    </form>
+
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>    
+
+<footer>
+  <ul>
+    <label for="Visita">Visita nuestros perfiles:
+
+    </label>
+    <li>
+      <a href="https://www.instagram.com/">
+        <i class="fa-brands fa-square-instagram fa-bounce" style="color: #0227de;">  Instagram</i>
+      </a>
+    </li>
+
+    <li>
+      <a href="https://es-la.facebook.com/">
+        <i class="fa-brands fa-square-facebook fa-bounce" style="color: #0227de;">  Facebook</i>
+      </a>
+    </li>
+
+  </ul>
+
+</footer>
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27197.825450735858!2d-63.5579614381544!3d-31.559073599251406!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94332b91eb1e7907%3A0x5a76631918044714!2sCAMPING%20%22JUAN%20DOMINGO%20PERON%22!5e0!3m2!1ses!2sar!4v1698102846803!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>"></a>
+
+</body>
+
+</html>
